@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: lightgray;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+header span {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+header p {
+  font-style: italic;
+}
+
+.tier {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.25rem;
+}
+
+.list ul li:first-child {
+  margin-top: 0.5rem;
+}
+
+.info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.info-blocks ul, .info-blocks li {
+  padding: 1rem;
+}
+
+.info-blocks li {
+  background: lightgray;
+  width: 30%;
+  height: 5rem;
+  border-radius: 0.25rem;
+}
+
+.bulleted-list {
+  padding-left: 2rem;
+}
+
+.bulleted-list {
+  list-style-type: disc;
+}
+
+.flow-list {
+  background: lightgray;
+  padding: 1rem;
+}
