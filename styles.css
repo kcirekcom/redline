@@ -68,16 +68,16 @@ header p {
   margin: 0 5%;
 }
 
-.tier:first-child h2, .tier:nth-child(2) h2, .tier:last-child h2 {
+/* .tier:first-child h2, .tier:nth-child(2) h2, .tier:last-child h2 {
   text-align: center;
-}
+} */
 
 .tier:first-child h2 {
   margin-top: 0;
 }
 
 .tier p {
-  width: 75%;
+  width: 85%;
   margin: 0 auto 1rem;
 }
 
@@ -206,6 +206,6 @@ header p {
   }
 
   .info-blocks li {
-    height: 5.5rem;
+    height: 6.5rem;
   }
 }
